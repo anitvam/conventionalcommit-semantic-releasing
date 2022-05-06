@@ -1,17 +1,15 @@
 name: conventionalcommits-semantic-releasing
 description: Semantic Release Action using Conventional Commits
 author: Martina Baiardi
-on:
-  workflow_call:
-    inputs:
-      token:
-        description: 'Personal Access token with push permissions on repository'
-        required: true
-        type: string
-      test:
-        description: 'A test param'
-        required: true
-        type: string
+
+inputs:
+  token:
+    description: 'Personal Access token with push permissions on repository'
+    required: true
+  test:
+    description: 'A test param'
+    required: true
+    default: 'testing-default' 
 
 jobs:
   checkout-and-release:
