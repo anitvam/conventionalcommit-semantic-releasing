@@ -1,1 +1,1 @@
-# conventionalcommit-semantic-versioning
+# conventionalcommit-semantic-releasing
