@@ -1,3 +1,10 @@
+## [0.3.6](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.3.5...v0.3.6) (2022-05-06)
+
+
+### Bug Fixes
+
+* trying to add pull command inside action before semantic release triggering ([74dff9e](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/74dff9eb17ac4be30c4dfc404a043859c2e565b4))
+
 ## [0.3.5](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.3.4...v0.3.5) (2022-05-06)
 
 
