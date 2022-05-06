@@ -16,15 +16,16 @@ runs:
     steps:
       - shell: bash
         run: echo ${{ inputs.test }}
+      
+      - name: Checkout repository
+        uses: actions/checkout@v3.0.2
+        with:
+          token: ${{ inputs.token }}
 
       - name: Some log
         shell: bash
         run: ls ./
 
-      - name: Checkout repository
-        uses: actions/checkout@v3.0.2
-        with:
-          token: ${{ inputs.token }}
 
       - name: Install npm package
         shell: bash
