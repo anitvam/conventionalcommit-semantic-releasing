@@ -24,7 +24,12 @@ runs:
 
       - name: Some log
         shell: bash
-        run: ls ./
+        run: |
+          ls ./
+          pwd
+          echo $GITHUB_WORKSPACE
+          ls $GITHUB_WORKSPACE
+
 
 
       - name: Install npm package
