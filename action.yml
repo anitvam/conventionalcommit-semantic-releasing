@@ -29,7 +29,7 @@ runs:
           cp package.json $GITHUB_WORKSPACE
           cp .releaserc.yml $GITHUB_WORKSPACE
           cd $GITHUB_WORKSPACE
-          ls ./
+          git pull
 
 
 
