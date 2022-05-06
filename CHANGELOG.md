@@ -1,3 +1,11 @@
+## [0.3.5](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.3.4...v0.3.5) (2022-05-06)
+
+
+### Bug Fixes
+
+* fixed error inside configuration files import ([9fdf199](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/9fdf199f4ae7c7df4470bc824a54c4a25c9ac711))
+* import configuration files into working directory ([2daa7d4](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/2daa7d47689c350f7c7f6ece249e4c4ba99f00b0))
+
 ## [0.3.4](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.3.3...v0.3.4) (2022-05-06)
 
 
