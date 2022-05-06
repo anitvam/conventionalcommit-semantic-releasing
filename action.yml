@@ -7,9 +7,11 @@ on:
       token:
         description: 'Personal Access token with push permissions on repository'
         required: true
+        type: string
       test:
         description: 'A test param'
         required: true
+        type: string
 
 jobs:
   checkout-and-release:
