@@ -5,11 +5,15 @@ inputs:
   token:
     description: 'Personal Access token with push permissions on repository'
     required: true
+  test:
+    description: 'A test param'
+    required: true
 
 jobs:
   checkout-and-release:
     runs-on: ubuntu-latest
     steps:
+      - run: echo ${{ inputs.test }}
       - name: Checkout repository
         uses: actions/checkout@v3.0.2
         with:
