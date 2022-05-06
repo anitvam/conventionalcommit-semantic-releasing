@@ -18,6 +18,7 @@ runs:
         run: echo ${{ inputs.test }}
 
       - name: Some log
+        shell: bash
         run: ls ./
 
       - name: Checkout repository
