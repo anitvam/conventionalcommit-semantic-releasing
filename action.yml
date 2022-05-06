@@ -1,0 +1,28 @@
+name: conventionalcommits-semantic-releasing
+description: Semantic Release Action using Conventional Commits
+author: Martina Baiardi
+
+inputs:
+  USER_TOKEN:
+    description: 'Personal Access token with push permissions on repository'
+    required: true
+
+on: [push]
+jobs:
+  checkout-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3.0.2
+        with:
+          token: ${{ inputs.USER_TOKEN }}
+
+      - name: Install npm package
+        uses: ./
+        run: npm install
+
+      - name: Release
+        env: 
+          GITHUB_TOKEN: ${{ inputs.USER_TOKEN }}
+        run: npx semantic-release  
+          
