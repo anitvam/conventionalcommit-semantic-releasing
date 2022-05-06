@@ -26,8 +26,8 @@ runs:
         shell: bash
         run: |
           cd $GITHUB_ACTION_PATH
-          yes | cp package.json $GITHUB_WORKSPACE
-          yes | cp .releaserc.yml $GITHUB_WORKSPACE
+          cp package.json $GITHUB_WORKSPACE
+          cp .releaserc.yml $GITHUB_WORKSPACE
           cd $GITHUB_WORKSPACE
           ls ./
 
