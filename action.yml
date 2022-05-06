@@ -16,6 +16,10 @@ runs:
     steps:
       - shell: bash
         run: echo ${{ inputs.test }}
+
+      - name: Some log
+        run: ls ./
+
       - name: Checkout repository
         uses: actions/checkout@v3.0.2
         with:
