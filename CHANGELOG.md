@@ -1,3 +1,11 @@
+## [0.3.1](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.3.0...v0.3.1) (2022-05-06)
+
+
+### Bug Fixes
+
+* add logs into action ([ca5c717](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/ca5c7178f33f3826fd0a15eacf951a5694ee85cf))
+* add logs into action ([2c9d961](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/2c9d9616bd66952b531b82bc11dd94f47ffe4cb8))
+
 # [0.3.0](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.2.0...v0.3.0) (2022-05-06)
 
 
