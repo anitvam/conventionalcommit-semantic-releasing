@@ -1,3 +1,10 @@
+# [0.3.0](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.2.0...v0.3.0) (2022-05-06)
+
+
+### Features
+
+* add to release's assets everything under the asset/ folder ([eae6806](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/eae6806e6f01bfaf257d35a0811ca00824416cb4))
+
 # [0.2.0](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.1.0...v0.2.0) (2022-05-06)
 
 
