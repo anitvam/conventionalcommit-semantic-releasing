@@ -23,6 +23,6 @@ jobs:
       - name: semver
         uses: anitvam/conventionalcommit-semantic-releasing@main
         with:
-          USER_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          token: ${{ secrets.PERSONAL_TOKEN }}
 
 
