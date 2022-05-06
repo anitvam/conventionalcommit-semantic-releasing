@@ -2,6 +2,11 @@ name: conventionalcommits-semantic-releasing
 description: Semantic Release Action using Conventional Commits
 author: Martina Baiardi
 
+branding:
+  icon: 'tag'  
+  color: 'green'
+
+
 inputs:
   USER_TOKEN:
     description: 'Personal Access token with push permissions on repository'
