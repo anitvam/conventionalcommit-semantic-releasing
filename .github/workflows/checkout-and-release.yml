@@ -1,0 +1,28 @@
+name: Checkout and Release
+
+on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - 'CHANGELOG.md'
+      - 'LICENSE'
+      - 'README.md'
+      - 'renovate.json'
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch sources
+        uses: actions/checkout@v3.0.2
+
+      - name: semver
+        uses: anitvam/conventionalcommit-semantic-releasing@v0
+        with:
+          token: ${{ secrets.PERSONAL_TOKEN }}
+
+
