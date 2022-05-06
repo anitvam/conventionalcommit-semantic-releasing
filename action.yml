@@ -14,16 +14,19 @@ inputs:
 runs:
     using: composite
     steps:
-      - run: echo ${{ inputs.test }}
+      - shell: bash
+        run: echo ${{ inputs.test }}
       - name: Checkout repository
         uses: actions/checkout@v3.0.2
         with:
           token: ${{ inputs.token }}
 
       - name: Install npm package
+        shell: bash
         run: npm install
 
-      - name: Release
+      - name: Perform release
+        shell: bash
         env: 
           GITHUB_TOKEN: ${{ inputs.token }}
         run: npx semantic-release  
