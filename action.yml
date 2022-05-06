@@ -28,7 +28,8 @@ runs:
           ls ./
           pwd
           echo $GITHUB_WORKSPACE
-          ls $GITHUB_WORKSPACE
+          echo $GITHUB_ACTION_PATH
+          ls $GITHUB_ACTION_PATH
 
 
 
