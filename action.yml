@@ -23,7 +23,6 @@ jobs:
           token: ${{ inputs.USER_TOKEN }}
 
       - name: Install npm package
-        uses: ./
         run: npm install
 
       - name: Release
