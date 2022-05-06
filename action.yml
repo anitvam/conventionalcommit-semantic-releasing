@@ -22,14 +22,14 @@ runs:
         with:
           token: ${{ inputs.token }}
 
-      - name: Some log
+      - name: Import Configuration files
         shell: bash
         run: |
+          cd $GITHUB_ACTION_PATH
+          yes | cp package.json $GITHUB_WORKSPACE
+          yes | cp .releaserc.yml $GITHUB_WORKSPACE
+          cd $GITHUB_WORKSPACE
           ls ./
-          pwd
-          echo $GITHUB_WORKSPACE
-          echo $GITHUB_ACTION_PATH
-          ls $GITHUB_ACTION_PATH
 
 
 
