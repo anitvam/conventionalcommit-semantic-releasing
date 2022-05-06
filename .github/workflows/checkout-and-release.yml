@@ -3,7 +3,7 @@ name: Checkout and Release
 on:
   push:
     branches:
-      - master
+      - main
     paths-ignore:
       - 'CHANGELOG.md'
       - 'LICENSE'
@@ -11,7 +11,7 @@ on:
       - 'renovate.json'
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   release:
