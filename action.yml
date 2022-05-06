@@ -11,9 +11,8 @@ inputs:
     required: true
     default: 'testing-default' 
 
-jobs:
-  checkout-and-release:
-    runs-on: ubuntu-latest
+runs:
+    using: composite
     steps:
       - run: echo ${{ inputs.test }}
       - name: Checkout repository
