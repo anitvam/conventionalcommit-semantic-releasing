@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v3.0.2
 
       - name: semver
-        uses: anitvam/conventionalcommit-semantic-releasing
+        uses: anitvam/conventionalcommit-semantic-releasing@latest
         with:
           token: ${{ secrets.PERSONAL_TOKEN }}
 
