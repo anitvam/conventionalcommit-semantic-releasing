@@ -6,7 +6,6 @@ inputs:
     description: 'Personal Access token with push permissions on repository'
     required: true
 
-on: [push]
 jobs:
   checkout-and-release:
     runs-on: ubuntu-latest
