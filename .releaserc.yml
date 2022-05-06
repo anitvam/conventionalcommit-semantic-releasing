@@ -1,0 +1,17 @@
+tagFormat: "v${version}"
+plugins:
+  - 
+    - "@semantic-release/commit-analyzer"
+    - preset: "conventionalcommits" 
+  - "@semantic-release/release-notes-generator"
+  - "@semantic-release/changelog"
+  -
+    - "@semantic-release/git"
+    - assets:
+        - CHANGELOG.md
+  -
+    - "@semantic-release/exec"
+    - publishCmd: |
+        git tag -a -f v${nextRelease.version} v${nextRelease.version} -F CHANGELOG.md
+        git push --force origin v${nextRelease.version}
+  - "@semantic-release/github"
