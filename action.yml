@@ -27,6 +27,7 @@ runs:
         run: |
           cd $GITHUB_ACTION_PATH
           cp package.json $GITHUB_WORKSPACE
+          cat package.json
           cp .releaserc.yml $GITHUB_WORKSPACE
           cd $GITHUB_WORKSPACE
           git pull
