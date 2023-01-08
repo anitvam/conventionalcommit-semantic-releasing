@@ -21,7 +21,10 @@ runs:
         uses: actions/checkout@v3.3.0
         with:
           token: ${{ inputs.token }}
-
+      - name: Setup node version
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
       - name: Import Configuration files
         shell: bash
         run: |
