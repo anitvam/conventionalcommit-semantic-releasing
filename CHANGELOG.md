@@ -1,3 +1,19 @@
+# [0.4.0](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.3.6...v0.4.0) (2023-01-08)
+
+
+### Bug Fixes
+
+* add node setup in action ([b9e3794](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/b9e37945cdf01b9f88b1e717998cf99902e5339b))
+* add something ([f7c23f6](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/f7c23f6dd60d08501322d6e661bb9930d6b58dbd))
+* debug npm version error ([c8e69e4](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/c8e69e4957f80c23d9c6782048eb01fbef8e26eb))
+* debug npm version error ([c5888d2](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/c5888d2c965743844d3b94470c27a12040d01ad9))
+* debug npm version error ([c7caf40](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/c7caf40fd9df439340eb33bf2afe7b0b47cc752c))
+
+
+### Features
+
+* add renovate configuration file ([59031ea](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/59031ea1a93ec92eaab15344cab2390bca5f0262))
+
 ## [0.3.6](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.3.5...v0.3.6) (2022-05-06)
 
 
