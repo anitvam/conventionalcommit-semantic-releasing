@@ -21,7 +21,7 @@ module.exports = {
             {
                 "publishCmd": "git tag -a -f v${nextRelease.version} v${nextRelease.version} -F CHANGELOG.md && \
                 git push --force origin v${nextRelease.version} && \
-                ${process.env.PUBLISH_COMMAND}",
+                [ ! -z '${process.env.PUBLISH_COMMAND}' ] && ${process.env.PUBLISH_COMMAND}",
             }
         ],
         [
