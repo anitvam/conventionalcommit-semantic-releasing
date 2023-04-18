@@ -1,3 +1,13 @@
+## [0.5.5](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.5.4...v0.5.5) (2023-04-18)
+
+
+### Bug Fixes
+
+* add more debug prints ([0cd4ffb](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/0cd4ffba6787170a4546afbf3326f43b2cfe6329))
+* correct position of npm version checks and add logs for debug ([628b279](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/628b27953c155f02e03437abfd32ddd4fb6050e6))
+* correct position of npm version checks and add logs for debug ([5042263](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/5042263f432ea9b0de4ca515fe6c9a87d76a2e42))
+* correct typos in README.md ([e565346](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/e5653466fdbf5da275083ddd5c6a54357445c69a))
+
 ## [0.5.4](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.5.3...v0.5.4) (2023-04-18)
 
 
