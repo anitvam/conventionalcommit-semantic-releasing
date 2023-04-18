@@ -4,7 +4,7 @@ GitHub action for Semantic Versioning and Releasing following Conventional Commi
 The action automatically computes the new version tag from commits and performs the release on the repository
 
 # Usage Example
-This action requires a Personal Access Token with permissions to push into the repository. You can pass it to the action as the follow:
+This action requires a Personal Access Token with permission to push into the repository. You can pass it to the action as the follow:
 
 ```yaml
       - name: semver
@@ -14,13 +14,13 @@ This action requires a Personal Access Token with permissions to push into the r
 ```
 
 # Assets 
-The action automatically include inside the new release's assets all the files that are present in a folder named `/assets`
+The action automatically includes inside the new release's assets all the files that are present in a folder named `/assets`
 
 # Release Branch
 The action performs the release on the repository's `default` branch.
 
 # Version number
-The action publish releases under the name `v<MAJOR>.<MINOR>.<PATCH>`. 
+The action publishes releases under the name `v<MAJOR>.<MINOR>.<PATCH>`. 
 
 Versions are computed by default from the action when one of the conventional-commit keyword is found inside 
 the commit description.
