@@ -1,3 +1,10 @@
+## [0.5.3](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.5.2...v0.5.3) (2023-04-18)
+
+
+### Bug Fixes
+
+* **ci:** change concatenation of commands in semanic-relese/exec ([e778ac8](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/e778ac87ef1a8a404ad8925224d09c2949180027))
+
 ## [0.5.2](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.5.1...v0.5.2) (2023-04-18)
 
 
