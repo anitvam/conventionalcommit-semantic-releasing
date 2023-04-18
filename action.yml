@@ -19,8 +19,12 @@ runs:
     using: composite
     steps:
       - shell: bash
-        name: "Publish command"
+        name: print Publish command
         run: echo ${{ inputs.publish-command }}
+
+      - shell: bash
+        name: print generic envvar
+        run: echo $ENV or ${{ env.ENV }}
       
       - name: Checkout repository
         uses: actions/checkout@v3.5.2
