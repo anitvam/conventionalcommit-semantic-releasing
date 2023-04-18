@@ -26,15 +26,6 @@ runs:
         uses: actions/checkout@v3.5.2
         with:
           token: ${{ inputs.token }}
-
-      - name: Find the version of Node from package.json
-        id: node-version
-        shell: bash
-        run: echo "version=$(jq -r .engines.node package.json)" >> $GITHUB_OUTPUT
-      - name: Install Node
-        uses: actions/setup-node@v3.6.0
-        with:
-          node-version: ${{ steps.node-version.outputs.version }}
       
       - name: Import Configuration files
         shell: bash
@@ -45,6 +36,15 @@ runs:
           cp release.config.js $GITHUB_WORKSPACE
           cd $GITHUB_WORKSPACE
           git pull
+
+      - name: Find the version of Node from package.json
+        id: node-version
+        shell: bash
+        run: echo "version=$(jq -r .engines.node package.json)" >> $GITHUB_OUTPUT
+      - name: Install Node
+        uses: actions/setup-node@v3.6.0
+        with:
+          node-version: ${{ steps.node-version.outputs.version }}
 
       - name: Install npm package
         shell: bash
