@@ -19,7 +19,8 @@ runs:
     using: composite
     steps:
       - shell: bash
-        run: echo ${{ inputs.test }}
+        name: "Publish command"
+        run: echo ${{ inputs.publish-command }}
       
       - name: Checkout repository
         uses: actions/checkout@v3.5.2
