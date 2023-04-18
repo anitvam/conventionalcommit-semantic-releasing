@@ -2,16 +2,16 @@ name: Checkout and Release
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main/master ]
     paths-ignore:
       - 'CHANGELOG.md'
       - 'LICENSE'
       - 'README.md'
       - 'renovate.json'
   pull_request:
-    branches:
-      - main
+    branches: [ main/master ]
+   
+
 
 jobs:
   release:
