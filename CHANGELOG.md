@@ -1,3 +1,12 @@
+## [0.5.2](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.5.1...v0.5.2) (2023-04-18)
+
+
+### Bug Fixes
+
+* add check for custom publish command ([68cbfde](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/68cbfde273aa0ad352f89fd6e6ab204df71b1a9d))
+* add check for node version to install in ci ([bee6502](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/bee6502394a2b4fa25b20c5bc6ae7af73dca6adb))
+* **ci:** correct syntax error in ci ([b5389f0](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/b5389f0068024d5c557fea6d5535e51217ecc263))
+
 ## [0.5.1](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.5.0...v0.5.1) (2023-04-18)
 
 
