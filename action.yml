@@ -58,8 +58,8 @@ runs:
         shell: bash
         env: 
           GITHUB_TOKEN: ${{ inputs.token }}
-          PUBLISH_COMMAND: ${{ inputs.on-publish-custom-command }}
-          ASSETS_PATH: ${{ inputs.publish-assets-path }}
+          PUBLISH_COMMAND: ${{ inputs.publish-command }}
+          ASSETS_PATH: ${{ inputs.assets-path }}
         run: npx semantic-release
 branding:
   icon: 'tag'
