@@ -24,6 +24,5 @@ jobs:
         uses: anitvam/conventionalcommit-semantic-releasing@main
         with:
           token: ${{ secrets.PERSONAL_TOKEN }}
-          test: "Something"
 
 
