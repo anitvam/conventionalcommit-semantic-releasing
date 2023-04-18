@@ -1,3 +1,10 @@
+# [0.5.0](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.4.0...v0.5.0) (2023-04-18)
+
+
+### Features
+
+* add configuration for publish command execution and custom assets path ([8ed1d82](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/8ed1d82de2c25e7c3b5560de07511c2b7b9284f6))
+
 # [0.4.0](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.3.6...v0.4.0) (2023-01-08)
 
 
