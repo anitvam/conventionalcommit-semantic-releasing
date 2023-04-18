@@ -6,10 +6,14 @@ inputs:
   token:
     description: 'Personal Access token with push permissions on repository'
     required: true
-  test:
-    description: 'A test param'
-    required: true
-    default: 'testing-default' 
+  publish-command:
+    description: 'A custom shell command executed during the publication of the new version'
+    required: false
+    default: ''
+  assets-path: 
+    description: 'The path that will be loaded into release assets'
+    required: false
+    default: 'assets/**'
 
 runs:
     using: composite
@@ -31,11 +35,9 @@ runs:
           cd $GITHUB_ACTION_PATH
           cp package.json $GITHUB_WORKSPACE
           node --version
-          cp .releaserc.yml $GITHUB_WORKSPACE
+          cp release.config.js $GITHUB_WORKSPACE
           cd $GITHUB_WORKSPACE
           git pull
-
-
 
       - name: Install npm package
         shell: bash
@@ -45,7 +47,9 @@ runs:
         shell: bash
         env: 
           GITHUB_TOKEN: ${{ inputs.token }}
-        run: npx semantic-release  
+          PUBLISH_COMMAND: ${{ inputs.on-publish-custom-command }}
+          ASSETS_PATH: ${{ inputs.publish-assets-path }}
+        run: npx semantic-release
 branding:
   icon: 'tag'
   color: 'green'
