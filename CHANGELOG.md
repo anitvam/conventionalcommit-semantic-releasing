@@ -1,3 +1,10 @@
+## [0.5.4](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.5.3...v0.5.4) (2023-04-18)
+
+
+### Bug Fixes
+
+* **ci:** remove empty elements from commands in semanic-relese/exec ([3550544](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/35505443e5aff85c0cd59e98ee7a017bf08da14a))
+
 ## [0.5.3](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.5.2...v0.5.3) (2023-04-18)
 
 
