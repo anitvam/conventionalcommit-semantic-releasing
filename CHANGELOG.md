@@ -1,3 +1,10 @@
+## [0.5.1](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.5.0...v0.5.1) (2023-04-18)
+
+
+### Bug Fixes
+
+* remove useless files ([af7696c](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/af7696ce29f5444ea7df0682a00669dcf2de3172))
+
 # [0.5.0](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.4.0...v0.5.0) (2023-04-18)
 
 
