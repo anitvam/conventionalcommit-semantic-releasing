@@ -1,3 +1,13 @@
+## [0.5.6](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.5.5...v0.5.6) (2023-04-19)
+
+
+### Bug Fixes
+
+* fixed error in env names export ([b33fde4](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/b33fde4b9c899282c06036eda9b5acc9c73f1f98))
+* refactor of action definition ([76ab493](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/76ab493641c84df562a4080d6e3d0a32bc729d5d))
+* remove debug prints ([96a3196](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/96a319699483f484dc7d9ada2b2e5475f4293185))
+* update ci checks ([1e73cc3](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/1e73cc3fa110a13dc52c1008fb03e770ea67d58c))
+
 ## [0.5.5](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.5.4...v0.5.5) (2023-04-18)
 
 
