@@ -22,6 +22,7 @@ runs:
         uses: actions/checkout@v3.5.2
         with:
           token: ${{ inputs.token }}
+          fetch-depth: 0
       - name: Import Configuration files
         shell: bash
         run: |
