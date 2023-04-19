@@ -1,3 +1,10 @@
+## [0.5.7](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.5.6...v0.5.7) (2023-04-19)
+
+
+### Bug Fixes
+
+* add fetch-depth in repository checkout ([c5925df](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/c5925dfbe9a7de189c289c41e6b03c93f34646e8))
+
 ## [0.5.6](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.5.5...v0.5.6) (2023-04-19)
 
 
