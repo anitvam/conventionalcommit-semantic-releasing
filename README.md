@@ -8,7 +8,7 @@ This action requires a Personal Access Token with permission to push into the re
 
 ```yaml
       - name: semver
-        uses: anitvam/conventionalcommit-semantic-releasing
+        uses: anitvam/conventionalcommit-semantic-releasing@<latest-version>
         with:
           token: ${{ secrets.PERSONAL_TOKEN }}
 ```
