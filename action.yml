@@ -30,7 +30,6 @@ runs:
           cp package.json $GITHUB_WORKSPACE
           cp release.config.js $GITHUB_WORKSPACE
           cd $GITHUB_WORKSPACE
-          git pull
       - name: Find the version of Node from package.json
         id: node-version
         shell: bash
