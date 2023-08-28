@@ -28,7 +28,6 @@ runs:
         run: |
           cd $GITHUB_ACTION_PATH
           cp package.json $GITHUB_WORKSPACE
-          node --version
           cp release.config.js $GITHUB_WORKSPACE
           cd $GITHUB_WORKSPACE
           git pull
