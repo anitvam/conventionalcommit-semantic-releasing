@@ -1,3 +1,10 @@
+## [0.5.9](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.5.8...v0.5.9) (2023-08-28)
+
+
+### Bug Fixes
+
+* trying to fix action.yml ([e50497e](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/e50497ee8405d4ef17ba90fe88fe92c7b213f474))
+
 ## [0.5.8](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.5.7...v0.5.8) (2023-08-28)
 
 
