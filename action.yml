@@ -26,19 +26,10 @@ runs:
       - name: Import Configuration files
         shell: bash
         run: |
-          ls -alh
-          git status
-          echo "---------"
           cd $GITHUB_ACTION_PATH
-          ls -alh
-          git status
-          echo "---------"
           cp package.json $GITHUB_WORKSPACE
           cp release.config.js $GITHUB_WORKSPACE
           cd $GITHUB_WORKSPACE
-          ls -alh
-          git status
-          echo "---------"
       - name: Find the version of Node from package.json
         id: node-version
         shell: bash
