@@ -1,3 +1,10 @@
+## [0.5.8](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.5.7...v0.5.8) (2023-08-28)
+
+
+### Bug Fixes
+
+* **CI:** add github token ([4d92fc2](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/4d92fc23cf98c466c08992886e37cb8f3227a877))
+
 ## [0.5.7](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.5.6...v0.5.7) (2023-04-19)
 
 
