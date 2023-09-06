@@ -1,31 +1,7 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base",
-    ":rebaseStalePrs",
-    ":semanticCommits",
-    ":dependencyDashboard"
+    "github>DanySK/renovate-config:kotlin"
   ],
-  "automerge": true,
-  "git-submodules": {
-    "enabled": true
-  },
-  "includeForks": true,
-  "labels": [
-    "dependencies"
-  ],
-  "packageRules": [
-    {
-      "description": "Updates to GitHub Actions should be tagged as 'ci'",
-      "matchPaths": [
-        ".github/workflows/*.yml",
-        ".github/workflows/*.yaml"
-      ],
-      "semanticCommitType": "ci"
-    }
-  ],
-  "prConcurrentLimit": 25,
-  "prHourlyLimit": 0,
-  "separateMajorMinor": true,
-  "separateMinorPatch": true,
-  "separateMultipleMajor": true
+  "assignees": ["anitvam"]
 }
