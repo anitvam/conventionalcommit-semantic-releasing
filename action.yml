@@ -30,14 +30,12 @@ runs:
           pwd
           ls -alh ./
           ls -alh ../
-
           echo $GITHUB_ACTION_PATH
           echo $GITHUB_WORKSPACE
-          ls -alh $GITHUB_WORKSPACE
-          cd $GITHUB_ACTION_PATH
-          cp package.json $GITHUB_WORKSPACE
-          cp release.config.js $GITHUB_WORKSPACE
-          cd $GITHUB_WORKSPACE
+          cd ./action
+          cp package.json ../
+          cp release.config.js ../
+          cd ../
       - name: Find the version of Node from package.json
         id: node-version
         shell: bash
