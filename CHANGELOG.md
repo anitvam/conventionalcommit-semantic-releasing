@@ -1,3 +1,14 @@
+## [0.5.10](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.5.9...v0.5.10) (2023-09-26)
+
+
+### Bug Fixes
+
+* change action configuration ([52c9f09](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/52c9f09338c5dece5ed604f9a6fb8e10973b0417))
+* change repository checkout directory ([c3bd4d1](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/c3bd4d161022005021b0aa7a11a0409e17c56b5d))
+* configure renovate commit message tag ([6a46814](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/6a46814b4cbe478207aa0b68d31e89d0f5bc0cdb))
+* update ci using same action configuration ([dd9464f](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/dd9464f920c8b080af51c8557d6ce756c0adc6eb))
+* update ci using updated action file ([0bc7918](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/0bc791891c299569b7db4968363c88478e67464d))
+
 ## [0.5.9](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.5.8...v0.5.9) (2023-08-28)
 
 
