@@ -29,7 +29,7 @@ runs:
         run: |
           pwd
           ls -alh ./
-          ls -alh ../
+          ls -alh ./action
           echo $GITHUB_ACTION_PATH
           echo $GITHUB_WORKSPACE
           cd ./action
