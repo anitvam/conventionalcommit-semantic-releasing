@@ -23,8 +23,7 @@ jobs:
         uses: actions/checkout@v4.0.0
         with:
           fetch-depth: 0
-          path: 'action'
       - name: run action 
-        uses: ./action
+        uses: ./
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
