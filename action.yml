@@ -18,28 +18,39 @@ inputs:
 runs:
     using: composite
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4.1.0
-        with:
-          token: ${{ inputs.token }}
-          fetch-depth: 0
-          path: 'action'
-      - name: Import Configuration files
+      - name: Debug prints
         shell: bash
         run: |
           pwd
           ls -alh ./
           ls -alh ./action
-          echo $GITHUB_ACTION_PATH
-          echo $GITHUB_WORKSPACE
-          cd ./action
-          cp package.json ../
-          cp release.config.js ../
-          cd ../
+      - name: Checkout repository
+        uses: actions/checkout@v4.1.0
+        with:
+          token: ${{ inputs.token }}
+          fetch-depth: 0
+          path: 'repo'
+      - name: Import Configuration files
+        shell: bash
+        run: |
+          ls -alh ./action
+          ls -alh ./repo
+          #echo $GITHUB_ACTION_PATH
+          #echo $GITHUB_WORKSPACE
+          #cd ./action
+          cp ./action/package.json ./repo/
+          cp ./action/release.config.js ./repo/
+          cp -rT ./repo/ ./
+          pwd
+          ls -alh ./
+          #cd $GITHUB_ACTION_PATH
+          #cp package.json $GITHUB_WORKSPACE/repo
+          #cp release.config.js $GITHUB_WORKSPACE/repo
+          #cd $GITHUB_WORKSPACE/repo
       - name: Find the version of Node from package.json
         id: node-version
         shell: bash
-        run: echo "version=$(jq -r .engines.node package.json)" >> $GITHUB_OUTPUT
+        run: echo "version=$(jq -r .engines.node ./repo/package.json)" >> $GITHUB_OUTPUT
       - name: Install Node
         uses: actions/setup-node@v3.8.1
         with:
