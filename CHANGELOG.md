@@ -1,3 +1,10 @@
+## [0.5.12](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.5.11...v0.5.12) (2023-09-27)
+
+
+### Bug Fixes
+
+* change action configuration to include dependencies ([b952eed](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/b952eed60d8da2194ef3e978a51c2ef056d9aac1))
+
 ## [0.5.11](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.5.10...v0.5.11) (2023-09-26)
 
 
