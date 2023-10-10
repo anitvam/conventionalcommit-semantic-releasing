@@ -1,3 +1,16 @@
+# [0.6.0](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.5.11...v0.6.0) (2023-10-10)
+
+
+### Bug Fixes
+
+* change action configuration to include dependencies ([902ec6d](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/902ec6d3b36dc648302b0618515ff736a2b4fcbf))
+* triggering release ([acfc2f3](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/acfc2f305fe74bed9ca60852559cf772a19b0032))
+
+
+### Features
+
+* trigger a release ([8b96800](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/8b96800199f3d7abe8f6e9b8d7929ff9f6f9bf74))
+
 ## [0.5.12](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.5.11...v0.5.12) (2023-10-10)
 
 
