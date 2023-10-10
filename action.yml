@@ -1,5 +1,5 @@
 name: conventionalcommits-semantic-releasing
-description: Semantic Release Action using Conventional Commits
+description: Semantic Release Action that automatically computes version using Conventional Commits
 author: Martina Baiardi
 
 inputs:
