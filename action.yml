@@ -10,7 +10,7 @@ inputs:
     description: 'A custom shell command executed during the publication of the new version'
     required: false
     default: ''
-  assets-path: 
+  assets-path:
     description: 'The path that will be loaded into release assets'
     required: false
     default: 'assets/**'
@@ -50,4 +50,4 @@ runs:
 branding:
   icon: 'tag'
   color: 'green'
-          
+
