@@ -1,3 +1,10 @@
+## [0.6.5](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.6.4...v0.6.5) (2023-10-24)
+
+
+### Bug Fixes
+
+* **deps:** update node.js to 20.9 ([d47fff2](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/d47fff2f40b9f291619150fb3b9432fe73132796))
+
 ## [0.6.4](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.6.3...v0.6.4) (2023-10-24)
 
 
