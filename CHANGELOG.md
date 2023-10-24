@@ -1,3 +1,10 @@
+## [0.6.4](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.6.3...v0.6.4) (2023-10-24)
+
+
+### Bug Fixes
+
+* **deps:** update node.js to v20 ([feced43](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/feced433d3f3cf4fd11991b0f9b527edb44e0642))
+
 ## [0.6.3](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.6.2...v0.6.3) (2023-10-23)
 
 
