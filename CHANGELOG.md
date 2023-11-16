@@ -1,3 +1,10 @@
+# [0.7.0](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.6.5...v0.7.0) (2023-11-16)
+
+
+### Features
+
+* remove checkout inside of the action ([6247a73](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/6247a73d08c48390be15ebe2c84622b66706c454))
+
 ## [0.6.5](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.6.4...v0.6.5) (2023-10-24)
 
 
