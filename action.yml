@@ -28,6 +28,7 @@ runs:
         shell: bash
         run: echo "version=$(jq -r .engines.node ./repo/package.json)" >> $GITHUB_OUTPUT
       - run: echo ${{ steps.node-version.outputs.version }}
+        shell: bash
       - name: Install Node
         uses: actions/setup-node@v4.0.1
         with:
