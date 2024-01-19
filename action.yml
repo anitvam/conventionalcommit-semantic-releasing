@@ -26,7 +26,7 @@ runs:
       - name: Find the version of Node from package.json
         id: node-version
         shell: bash
-        run: echo "version=$(jq -r .engines.node ./repo/package.json)" >> $GITHUB_OUTPUT
+        run: echo "version=$(jq -r .engines.node ./package.json)" >> $GITHUB_OUTPUT
       - run: echo ${{ steps.node-version.outputs.version }}
         shell: bash
       - name: Install Node
