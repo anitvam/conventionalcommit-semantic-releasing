@@ -27,10 +27,12 @@ runs:
         id: node-version
         shell: bash
         run: echo "version=$(jq -r .engines.node ./repo/package.json)" >> $GITHUB_OUTPUT
+      - run: echo ${{ steps.node-version.outputs.version }}
       - name: Install Node
         uses: actions/setup-node@v4.0.1
         with:
           node-version: ${{ steps.node-version.outputs.version }}
+          check-latest: true
       - name: Install npm package
         shell: bash
         run: npm install
