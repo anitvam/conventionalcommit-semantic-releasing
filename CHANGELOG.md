@@ -1,3 +1,13 @@
+## [0.7.4](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.3...v0.7.4) (2024-01-19)
+
+
+### Bug Fixes
+
+* add check-latest flag to setup-node action ([46d7023](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/46d70233bfba38eaca52818860e1bda459f71cc2))
+* change declaration of node version number ([67bfa80](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/67bfa8098f3a927e343e47b09258dd4eca2e05fe))
+* fix missing bash shell declaration ([ffc14ca](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/ffc14ca6117ca401b3d3d821233482e99354eafa))
+* fix wrong path ([d5a86ca](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/d5a86cadbcafc3364c2a6b494d208ae451f21245))
+
 ## [0.7.3](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.2...v0.7.3) (2024-01-10)
 
 
