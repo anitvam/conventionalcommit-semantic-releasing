@@ -1,3 +1,10 @@
+## [0.7.9](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.8...v0.7.9) (2024-03-26)
+
+
+### Bug Fixes
+
+* Update dependencies versions in package.json ([5c1737c](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/5c1737c2440c13e3756549ce1dcdc7ab49506817))
+
 ## [0.7.8](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.7...v0.7.8) (2024-03-26)
 
 
