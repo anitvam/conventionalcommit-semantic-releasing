@@ -1,3 +1,10 @@
+## [0.7.19](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.18...v0.7.19) (2024-05-17)
+
+
+### Bug Fixes
+
+* **deps:** update actions/checkout action to v4.1.6 ([05e76db](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/05e76db3f888932a55f2f46b5889f9ed545d607b))
+
 ## [0.7.18](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.17...v0.7.18) (2024-05-13)
 
 
