@@ -1,3 +1,10 @@
+## [0.7.22](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.21...v0.7.22) (2024-06-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @semantic-release/commit-analyzer to v13 ([5bfc063](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/5bfc063346583719f7c6a357a42a128d362fa114))
+
 ## [0.7.21](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.20...v0.7.21) (2024-05-26)
 
 
