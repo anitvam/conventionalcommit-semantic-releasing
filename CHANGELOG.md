@@ -1,3 +1,10 @@
+## [0.7.23](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.22...v0.7.23) (2024-06-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @semantic-release/release-notes-generator to v14 ([5d7c04e](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/5d7c04efd40cef3a66a5af6714d07d1f2902f40e))
+
 ## [0.7.22](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.21...v0.7.22) (2024-06-04)
 
 
