@@ -30,7 +30,7 @@ runs:
       - run: echo ${{ steps.node-version.outputs.version }}
         shell: bash
       - name: Install Node
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@v4.0.3
         with:
           node-version: ${{ steps.node-version.outputs.version }}
           check-latest: true
