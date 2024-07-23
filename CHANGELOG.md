@@ -1,3 +1,10 @@
+## [0.7.31](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.30...v0.7.31) (2024-07-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @semantic-release/github to v10.1.1 ([3302d5b](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/3302d5bdbded1336ce2334c4ce8e664b41b9bffe))
+
 ## [0.7.30](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.29...v0.7.30) (2024-07-11)
 
 
