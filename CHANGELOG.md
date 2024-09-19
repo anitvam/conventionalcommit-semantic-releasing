@@ -1,3 +1,10 @@
+## [0.7.45](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.44...v0.7.45) (2024-09-19)
+
+
+### Bug Fixes
+
+* **deps:** update actions/setup-node action to v4.0.4 ([628eb94](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/628eb9481764d62c701465a823d7d676d55eaeb8))
+
 ## [0.7.44](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.43...v0.7.44) (2024-09-18)
 
 
