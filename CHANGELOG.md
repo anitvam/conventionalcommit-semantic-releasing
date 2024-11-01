@@ -1,3 +1,10 @@
+## [0.7.55](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.54...v0.7.55) (2024-11-01)
+
+
+### Bug Fixes
+
+* **deps:** update node.js to v22 ([04153e5](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/04153e5a8e36f1fedf4caaa5873d526e1feb2c81))
+
 ## [0.7.54](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.53...v0.7.54) (2024-10-29)
 
 
