@@ -1,3 +1,10 @@
+## [0.7.61](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.60...v0.7.61) (2025-02-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @semantic-release/exec to v7.0.2 ([#86](https://github.com/anitvam/conventionalcommit-semantic-releasing/issues/86)) ([b721c95](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/b721c95f8b152cf5c44dc939c627e377355b0344))
+
 ## [0.7.60](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.59...v0.7.60) (2025-02-04)
 
 
