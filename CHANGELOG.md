@@ -1,3 +1,10 @@
+## [0.7.72](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.71...v0.7.72) (2025-05-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @semantic-release/github to v11.0.3 ([#97](https://github.com/anitvam/conventionalcommit-semantic-releasing/issues/97)) ([f5852bb](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/f5852bbad64098072c1ca7f0ea550c9045200e4b))
+
 ## [0.7.71](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.70...v0.7.71) (2025-05-27)
 
 
