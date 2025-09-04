@@ -1,3 +1,10 @@
+## [0.7.80](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.79...v0.7.80) (2025-09-04)
+
+
+### Bug Fixes
+
+* **deps:** update actions/setup-node action to v5 ([#105](https://github.com/anitvam/conventionalcommit-semantic-releasing/issues/105)) ([b5eda34](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/b5eda349152029cf6582906bcac260c492f94871))
+
 ## [0.7.79](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.78...v0.7.79) (2025-09-01)
 
 
