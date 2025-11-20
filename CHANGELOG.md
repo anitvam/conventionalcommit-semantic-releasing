@@ -1,3 +1,10 @@
+## [0.7.94](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.93...v0.7.94) (2025-11-20)
+
+
+### Bug Fixes
+
+* **deps:** update actions/checkout action to v6 ([#119](https://github.com/anitvam/conventionalcommit-semantic-releasing/issues/119)) ([036bbd4](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/036bbd4b7ce2fb903c462e6e31677cdc0e293070))
+
 ## [0.7.93](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.92...v0.7.93) (2025-11-18)
 
 
