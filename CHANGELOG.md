@@ -1,3 +1,10 @@
+## [0.7.99](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.98...v0.7.99) (2026-02-10)
+
+
+### Bug Fixes
+
+* **deps:** update semantic-release monorepo ([#125](https://github.com/anitvam/conventionalcommit-semantic-releasing/issues/125)) ([a4a5c9f](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/a4a5c9fe72e80c9ee916b6271d638cb02a94921d))
+
 ## [0.7.98](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.97...v0.7.98) (2026-01-23)
 
 
