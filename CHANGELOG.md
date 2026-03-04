@@ -1,3 +1,10 @@
+## [0.7.101](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.100...v0.7.101) (2026-03-04)
+
+
+### Bug Fixes
+
+* **deps:** update actions/setup-node action to v6.3.0 ([#127](https://github.com/anitvam/conventionalcommit-semantic-releasing/issues/127)) ([7dbe01b](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/7dbe01bafd8462be6eed5b2c1a13df7c07e1f8f5))
+
 ## [0.7.100](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.99...v0.7.100) (2026-02-16)
 
 
