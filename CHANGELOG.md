@@ -1,3 +1,10 @@
+## [0.7.104](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.103...v0.7.104) (2026-04-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency conventional-changelog-conventionalcommits to v9.3.1 ([#130](https://github.com/anitvam/conventionalcommit-semantic-releasing/issues/130)) ([809e51a](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/809e51a3416923e9da81db8b6aace1369a53ee6e))
+
 ## [0.7.103](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.102...v0.7.103) (2026-03-08)
 
 
