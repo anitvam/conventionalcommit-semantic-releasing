@@ -1,3 +1,10 @@
+## [0.7.120](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.119...v0.7.120) (2026-07-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency semantic-release to v25.0.8 ([#146](https://github.com/anitvam/conventionalcommit-semantic-releasing/issues/146)) ([ce3093f](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/ce3093fc5854196c4d6754293acb057bf051530c))
+
 ## [0.7.119](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.118...v0.7.119) (2026-07-21)
 
 
