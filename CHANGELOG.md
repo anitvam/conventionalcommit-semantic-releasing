@@ -1,3 +1,10 @@
+## [0.7.130](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.129...v0.7.130) (2026-10-31)
+
+
+### Bug Fixes
+
+* **deps:** update node.js to v26 ([#156](https://github.com/anitvam/conventionalcommit-semantic-releasing/issues/156)) ([3c233e1](https://github.com/anitvam/conventionalcommit-semantic-releasing/commit/3c233e12c9cb70ef48c38bc520388e112b4a940e))
+
 ## [0.7.129](https://github.com/anitvam/conventionalcommit-semantic-releasing/compare/v0.7.128...v0.7.129) (2026-10-08)
 
 
