@@ -15,6 +15,6 @@
     "semantic-release": "25.0.9"
   },
   "engines": {
-    "node": "24" 
+    "node": "26" 
   }
 }
